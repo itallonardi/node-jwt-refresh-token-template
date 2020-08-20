@@ -13,10 +13,10 @@
 ![Badge](https://img.shields.io/static/v1?label=TypeORM&message=0.2.25)
 
 [en]In this repository I demonstrate JWT authentication together with a refresh token technique to keep the user always logged in. Including, delivering the token with a different expiration date (exp) in case of login in a mobile application, for example.
-In addition, I represented the following scenario: a table of users, a table of books (which belongs to these users), and a table of ~~ blacklist ~~ (perjective expression?!?!) Denied tokens that represent a validation for "revoked" tokens that have already been refreshed or that have been subtracted, for example.
+In addition, I represented the following scenario: a table of users - with different levels of permission access -, a table of books (which belongs to these users), and a table of ~~ blacklist ~~ (perjective expression?!?!) Denied tokens that represent a validation for "revoked" tokens that have already been refreshed or that have been subtracted, for example.
 
 [pt-BR]Neste repositório faço uma demonstração de uma autenticação JWT juntamente com uma técnica de refresh token para manter o usuário sempre logado. Inclusive, entregando o token com uma válidade (exp) diferente em caso de login num aplicativo móvel, por exemplo.
-Além disso, representamos o seguinte cenário: uma tabela de usuários, uma tabela de livros (percentes a estes usuários), e uma tabela de ~~lista negra~~ (vamos substituir esta expressão perojativa?) tokens negados que representam uma validação para "revogarmos" tokens que já foram atualizados ou que tenham sido subtraídos, por exemplo.
+Além disso, representamos o seguinte cenário: uma tabela de usuários - com diferentes níveis de permissão de acesso -, uma tabela de livros (percentes a estes usuários), e uma tabela de ~~lista negra~~ (vamos substituir esta expressão perojativa?) tokens negados que representam uma validação para "revogarmos" tokens que já foram atualizados ou que tenham sido subtraídos, por exemplo.
 
 ## Quick Start / [pt-BR]Como executar
 
