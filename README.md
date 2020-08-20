@@ -38,7 +38,7 @@ Use the file **.env.example** for create your **.env** file, and the **ormconfig
 
 This project uses MySQL. Use the sgbd of your choice, such as postgres or another.
 
-[pt-BR]Este projeto utiliza MySQL. Use o sgbn de sua preferência, como postgres ou outro.
+[pt-BR]Este projeto utiliza MySQL. Use o sgbd de sua preferência, como postgres ou outro.
 
 **MIT License /[pt-BR]Licença MIT**
 
