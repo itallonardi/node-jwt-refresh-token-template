@@ -31,14 +31,16 @@ Além disso, representamos o seguinte cenário: uma tabela de usuários, uma tab
 #### or / [pt-BR]ou
     $ npm install
     
-#### Set the environment variables / [pt-BR]Configure as variáveis de ambiente[pt-BR]
-Use the file **.env.example** for create your **.env** file, and the **ormconfig.json.example** file to create your **ormconfig.json**
+#### Set the environment variables / [pt-BR]Configure as variáveis de ambiente
+Use the file **.env.example** for create your **.env** file, and the **ormconfig.json.example** file to create your **ormconfig.json**.
+
 [pt-BR]Utilize o arquivo **.env.example** para criar o seu próprio arquivo **.env**, e o arquivo **ormconfig.json.example** para criar o seu **ormconfig.json**
 
 This project uses MySQL. Use the sgbd of your choice, such as postgres or another.
+
 [pt-BR]Este projeto utiliza MySQL. Use o sgbn de sua preferência, como postgres ou outro.
 
-MIT License /[pt-BR]Licença MIT
+**MIT License /[pt-BR]Licença MIT**
 
 ### Author / [pt-BR]Autor
 ---
