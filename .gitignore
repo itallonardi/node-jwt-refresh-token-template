@@ -1,0 +1,4 @@
+#ignore some files
+node_modules/*
+ormconfig.json
+*.env
