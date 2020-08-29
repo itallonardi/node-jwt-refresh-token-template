@@ -12,5 +12,5 @@ app.use(express.json());
 app.use(routes);
 
 app.listen(port, () => console.log(
-  `🦄🍄 Ready for magia at port ${port}. Waiting database...`
+  `🦄🍄 Server started on port ${port}. Waiting database...`
 ));
