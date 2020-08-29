@@ -20,6 +20,9 @@ Além disso, representamos o seguinte cenário: uma tabela de usuários - com di
 
 ## Quick Start / [pt-BR]Como executar
 
+#### [Using this repository template / pt-BR]Utilizando este repositório template
+Just use the "use this template" button in the upper right corner and generate your project from this template. [pt-BR]Apenas utilize o botão **"use this template"** no canto superior direito e gere o seu projeto a partir deste template.
+
 #### Cloning the repository / [pt-BR]Clonando o repositório
     $ git clone https://github.com/itallonardi/node-jwt-refresh-token.git
 
@@ -48,7 +51,7 @@ This project uses MySQL. Use the sgbd of your choice, such as postgres or anothe
 <a href="http://itallonardi.com">
  <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/4490817?s=150&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Itallo Nardi</b></sub></a> <a href="http://itallonardi.com/" title="Itallo Nardi"></a>
+ <sub><b>Itallo Nardi</b></sub></a> <a href="http://itallonardi.com/" title="Itallo Nardi website"></a>
 
 
 Made by Itallo Nardi / [pt-BR]Feito por Itallo Nardi
