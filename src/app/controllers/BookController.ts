@@ -8,14 +8,7 @@ class BookController {
   async index(request: Request, response: Response) {
     const repository = getRepository(Book);
     const books = await repository.find();
-
     books.map((book) => { delete book.owner.password });
-
-    const newToken = request.newToken;
-    if (newToken) {
-      return response.json({ books, newToken });
-    }
-
     return response.json(books);
   }
 
@@ -34,11 +27,6 @@ class BookController {
     });
 
     await repository.save(book);
-
-    const newToken = request.newToken;
-    if (newToken) {
-      return response.json({ book, newToken });
-    }
 
     return response.json(book);
   }

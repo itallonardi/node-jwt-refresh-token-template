@@ -6,10 +6,8 @@ import User from '../models/User';
 class UserController {
 
   async index(request: Request, response: Response){
-
     const repository = getRepository(User);
-
-    //specifying field to not sent sensible informations
+    //specifying fields to not sent sensible informations
     const users = await repository.find({ 
       select: [ 
         "id",
@@ -24,11 +22,6 @@ class UserController {
         "updated_at"
       ] 
     });
-
-    const newToken = request.newToken;
-    if (newToken) {
-      return response.json({ users, newToken });
-    }
 
     return response.json(users);
     
@@ -58,7 +51,7 @@ class UserController {
     });
     
     if (userExists){
-      return response.sendStatus(409); //409 == conflict
+      return response.sendStatus(409);
     }
     
     const user = repository.create(
@@ -73,11 +66,6 @@ class UserController {
         is_admin
       });
     await repository.save(user);
-
-    const newToken = request.newToken;
-    if (newToken) {
-      return response.json({ user, newToken });
-    }
     
     return response.json(user);
   }

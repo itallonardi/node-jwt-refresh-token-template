@@ -96,12 +96,10 @@ export default async function authMiddleware(
 
   const newToken = await sentNewToken();
 
-  if (newToken){
-    console.log(newToken);
-    request.newToken = newToken;
-  }
-
   request.userId = id;
+  
+  response.append('Token', newToken);
+
   return nextFunction();
     
 };
