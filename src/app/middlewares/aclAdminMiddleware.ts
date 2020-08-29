@@ -24,10 +24,10 @@ export default async function aclAdminMiddleware(
       return nextFunction();
     }
     
-    return response.sendStatus(401);
+    return response.sendStatus(403);
 
   } catch(err) {
-    return response.sendStatus(401);
+    return response.sendStatus(403);
   }
     
 };
