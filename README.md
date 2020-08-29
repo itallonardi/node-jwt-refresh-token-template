@@ -20,7 +20,7 @@ Além disso, representamos o seguinte cenário: uma tabela de usuários - com di
 
 ## Quick Start / [pt-BR]Como executar
 
-#### [Using this repository template / pt-BR]Utilizando este repositório template
+#### Using this repository template / [pt-BR]Utilizando este repositório template
 Just use the "use this template" button in the upper right corner and generate your project from this template. [pt-BR]Apenas utilize o botão **"use this template"** no canto superior direito e gere o seu projeto a partir deste template.
 
 #### Cloning the repository / [pt-BR]Clonando o repositório
